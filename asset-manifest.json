@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Calorie-Burn-Calculator/static/css/main.8e1b023b.css",
+    "main.js": "/Calorie-Burn-Calculator/static/js/main.ee43b794.js",
+    "static/media/image.png": "/Calorie-Burn-Calculator/static/media/image.ca3ed24abb19716c1d7a.png",
+    "index.html": "/Calorie-Burn-Calculator/index.html",
+    "main.8e1b023b.css.map": "/Calorie-Burn-Calculator/static/css/main.8e1b023b.css.map",
+    "main.ee43b794.js.map": "/Calorie-Burn-Calculator/static/js/main.ee43b794.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e1b023b.css",
+    "static/js/main.ee43b794.js"
+  ]
+}
