@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import UserCard from './UserCard';
-import ErrorHandle from './ErrorHandle';
 
 const Card = (props) => {
     const activities = props.userData;

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Spinner from './components/Spinner';
 import Card from './components/Card';
 import {FiChevronLeft, FiChevronRight} from "react-icons/fi";
+import ErrorHandle from "../src/components/ErrorHandle";
 
 const API_KEY = process.env.REACT_APP_CALORIE_API_KEY;
 
@@ -16,6 +17,7 @@ function App() {
   const[loading, setLoading] = useState('false');
   const[data, setData] = useState('');
   const[index, setIndex] = useState(0);
+  const[check, setCheck] = useState(false);
 
   const options = {
     method: 'GET',
@@ -81,10 +83,9 @@ function App() {
     }
   }
 
-
   return (
-    <div className='relative font-poppins box-border w-[100vw] h-[100%] flex flex-col justify-center items-center gap-4
-     bg-gray-200 md:w-[100vw] h-[100vh]' >
+    <div className='relative font-poppins p-0 m-0 box-border w-[100vw] h-[100vh] flex flex-col justify-center items-center gap-4
+     bg-gray-200 md: w-[100vw] h-[85%] ' >
      <Header/>
      
      <div className='flex flex-col justify-center items-center gap-5 m-2 md:flex-row ' >

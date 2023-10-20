@@ -10,4 +10,4 @@ const ErrorHandle = () => {
   )
 }
 
-export default ErrorHandle
+export default ErrorHandle;
